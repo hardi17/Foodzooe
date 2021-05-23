@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/tv_searchByKeyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeuib"
+            android:padding="@dimen/dp7"
+            android:text="@string/search_by_keyword"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp20" />
+
+        <TextView
+            android:id="@+id/tv_searcDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeuil"
+            android:padding="@dimen/dp7"
+            android:text="@string/search_detail"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            android:background="@drawable/et_bg"
+            android:hint="@string/_enterFoodName"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:padding="@dimen/dp10"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp17" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_foodResult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp10"
+                android:padding="@dimen/dp10"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/tv_noError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:visibility="gone"
+                android:fontFamily="@font/segoeuib"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp18" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Foodzooe</string>
+
+    <!--home screen-->
+    <string name="food_recipes">Food &amp; Recipes</string>
+    <string name="please_enter_word">Please enter word and then press search.</string>
+    <string name="search_by_keyword">Searching recipes by keyword</string>
+    <string name="search_detail">Enter a what you have eaten,
+           like \"coffee and croissant\" or \"chicken enchilada\" to see how it works.
+           We have accurate data tens of thousands of foods, including international dishes.</string>
+    <string name="_enterFoodName">Enter food name</string>
+
+    <!--key-->
+    <string name="app_id">06caaf12</string>
+    <string name="app_key">fab6b29dbda561b565cc851a4d4f86b5</string>
+
+    <!--search food text-->
+    <string name="qty">Qty : </string>
+    <string name="calories">Calories : </string>
+    <string name="energy">Energy : </string>
+    <string name="totalTime">Total Time : </string>
+    <string name="dietLabel">Diet Label : </string>
+    <string name="dishType">Dish Type : </string>
+    <string name="cuisineType">cuisine Type: </string>
+    <string name="mealType">Meal Type : </string>
+    <string name="nutrients">Nutrients : </string>
+    <string name="healthLabels">Health Labels</string>
+    <string name="protein">Protein : </string>
+    <string name="fat">Fat : </string>
+    <string name="cautions">Cautions : </string>
+    <string name="carbs">Carbs : </string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_data">No data found.</string>
+    <string name="url">Url : </string>
+    <string name="source">Source : </string>
+    <string name="ingredients">Ingredients : </string>
+</resources>
